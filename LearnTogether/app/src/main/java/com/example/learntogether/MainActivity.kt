@@ -84,8 +84,6 @@ fun DescribedImage(titleOfTheScreen: String, firstParagraph: String, secondParag
             modifier = Modifier.padding(top = 118.dp)
             )
     }
-
-
 }
 
 @Preview(showBackground = true)
