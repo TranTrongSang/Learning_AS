@@ -47,30 +47,24 @@ fun GreetingText(message: String, from: String, modifier: Modifier = Modifier)
 {
     Column(
         verticalArrangement = Arrangement.Center,
-        modifier = modifier.padding(8.dp)
+        modifier = modifier
         )
     {
         Text(
             text = message,
-            fontSize = 91.sp,
+            fontSize = 100.sp,
             lineHeight = 116.sp,
             textAlign = TextAlign.Center,
-            modifier = Modifier.padding(
-                start = 10.dp,
-                top = 16.dp,
-                end = 10.dp,
-                bottom = 16.dp,            )
+            modifier = Modifier.padding(top = 16.dp)
         )
         Text(
             text = from,
             fontSize = 36.sp,
             modifier = Modifier
                 .padding(
-                    start = 10.dp,
                     top = 16.dp,
-                    end = 10.dp,
-                    bottom = 16.dp,
-                )
+                    end = 16.dp,
+                        )
                 .align(alignment = Alignment.CenterHorizontally)
             )
 
